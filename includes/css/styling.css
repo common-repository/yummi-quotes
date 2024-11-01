@@ -1,0 +1,40 @@
+.yquote {
+    position: relative;
+    border-top: solid 1px #f26d7d;
+    border-bottom: solid 1px #f26d7d;
+    quotes: "“" "”";
+    margin: 20px 25px;
+    padding: 1em 10px;
+    text-align: center;
+}
+.yquote:after, .yquote:before{
+    position: absolute;
+    left: 50%;
+    color: #f26d7d;
+    display: block;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 3em;
+    line-height: .3em;
+    margin: 0;
+    vertical-align: middle;
+    font-family: "Trebuchet MS",Helvetica,sans-serife;
+}
+.yquote:before {
+    content: open-quote;
+    top: -5px;
+}
+.yquote:after {
+    content: close-quote;
+    bottom: -20px;
+}
+.yquote p {
+    display: inline;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: normal;
+}
+.yquote span.qauthor {
+  text-align: right;
+}
